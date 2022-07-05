@@ -20,7 +20,7 @@ def get_entity_cls():
     return _Entity
 
 
-def get_entity_query(auto_camelcase):
+def get_entity_query(auto_camelcase=False):
     if not custom_entities:
         return
 
